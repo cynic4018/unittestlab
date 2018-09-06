@@ -27,10 +27,3 @@ def count_unique(list):
             compare = i
 
     return count
-
-    # newlist=[]
-    # for c in list:
-    #     if c not in newlist:
-    #         newlist.append(c)
-    #
-    # return len(newlist)
