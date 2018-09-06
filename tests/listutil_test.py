@@ -21,6 +21,7 @@ class TestCountElement(unittest.TestCase):
         self.assertEqual(10, count_unique(fontlist))
         self.assertEqual(10, count_unique(mathlist))
 
+    ## Failcase because is None
     # def test_impossible_case(self):
     #     list == None
     #     except:
