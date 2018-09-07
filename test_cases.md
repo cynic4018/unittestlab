@@ -1,5 +1,4 @@
 # unittestlab
-Katapon Sinpunwong 6010545722
 ## borderline cases 
 Such as a list with 0 or 1 elements. 
 
