@@ -16,6 +16,8 @@ def count_unique(list):
    >>> count_unique([ ])
    0
    """
+    if len(list) is None:
+        return None
     if len(list) == 0:
         return 0
     compare = list[0]

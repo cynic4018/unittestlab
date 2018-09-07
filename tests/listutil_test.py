@@ -21,12 +21,11 @@ class TestCountElement(unittest.TestCase):
         self.assertEqual(10, count_unique(fontlist))
         self.assertEqual(10, count_unique(mathlist))
 
-    # def test_impossible_case(self):
-    #     list == None
-    #     except:
-    #         print("Error list is null")
+    ## Failcase because is None
+    # def test_have_none_element_case(self):
+    #     fontlist is None
     #
-    #     self.assertEqual("Error list is null", count_unique(list))
+    #     self.assertEqual(None, count_unique(fontlist))
 
 
     def test_huge_list_case(self):
